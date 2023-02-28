@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Devices</title>
+<style>
+
+ * {
+  box-sizing: border-box;
+}
+h1{
+  margin-bottom: 13px;
+}
+
+p{
+  border: 1px solid rgb(245, 9, 9);
+  background-color: #448c9e;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: rgb(99, 188, 218);
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-l-1, .col-l-2, .col-l-3 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-l-1 {
+    width: 100%;
+  }
+  .col-l-2 {
+    width: 100%;
+  }
+  .col-l-3 {
+    width: 100%;
+  }
+  
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col1, .col2, .col3{
+    float: left;
+    border: 1px solid rgb(86, 150, 86);
+  }
+  .col1 {
+    width: 100%;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col3 {
+    width: 100%;
+  }
+  
+}
+
+</style>
+</head>
+<body>
+<h1>Menu</h1>
+
+<div class="row">
+  <div class="col-l-1 col3"><p>
+    <h1>Chicken</h1>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+  </p></div>
+  <div class="col-l-1 col3"><p>
+    <h1>Beef</h1>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></div>
+  <div class="col-l-1 col3"><p>
+    <h1>Sushi</h1>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ </p></div>
+</div>
+
+</body>
+</html>
